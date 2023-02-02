@@ -18,7 +18,7 @@ return new class extends Migration
 
             $table -> string('name' , 32);
             $table -> string('birth_place' , 32);
-            $table -> dateTime('blessing_date');
+            $table -> string('blessing_date');
             $table -> integer('miracles') -> unsigned();
 
             $table -> timestamps();
